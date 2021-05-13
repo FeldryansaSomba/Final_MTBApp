@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     contentWrapper: {
         flex: 1,
         backgroundColor: 'white',
-        paddingHorizontal: 24,
+        paddingHorizontal: 13,
         paddingTop: 9,
         marginTop: 24,
     },
