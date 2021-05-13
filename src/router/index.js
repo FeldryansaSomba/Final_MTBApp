@@ -1,6 +1,7 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import { Home, SplashScreen, Component } from '../pages';
+import Repair from '../pages/Repair';
 
 const Stack = createStackNavigator();
 
@@ -10,6 +11,7 @@ const Router = () => {
             <Stack.Screen name="SplashScreen" component={SplashScreen} options={{headerShown: false}} />
             <Stack.Screen name="Home" component={Home} options={{headerShown: false}} />
             <Stack.Screen name="Component" component={Component} options={{headerShown: false}} />
+            <Stack.Screen name="Repair" component={Repair} options={{headerShown: false}} />
         </Stack.Navigator>
     );
 };
